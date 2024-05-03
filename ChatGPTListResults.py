@@ -21,7 +21,7 @@ def ask_gpt3(topic):
             messages=[
                 {
                 "role":"user",
-                "content":f"tell me five things about {topic}. put answer in html ordered list. Include links to sources. Do not be conversational"
+                "content":f"Give me a list of 20 places with descriptions to visit in {topic}. Do not be conversational"
                 }
             ],
             model="gpt-4",
